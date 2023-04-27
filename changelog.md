@@ -14,3 +14,4 @@ added - searching function
 added - empty list for inventory
 --------------------------------------------------------------
 v3.0
+added - external files for functions
