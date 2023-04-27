@@ -16,3 +16,4 @@ added - empty list for inventory
 v3.0
 added - external files for each function
 added - external file for map
+added - check map as option from main menu
