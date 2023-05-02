@@ -67,6 +67,14 @@ while True:
     elif choice == "Check Inventory" or choice == "check inventory":
         print(Search.Inventory)
     elif choice == "Check Map" or choice == "check map":
-         print(Map.Ship_map)
+        try:
+            print(Map.Ship_map)
+        except:
+            print("Something went wrong")
+        else:
+            pass
+        finally:
+            print("You're being returned to the main menu")
     else:
         print("You can't do that")
+        
