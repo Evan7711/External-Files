@@ -2,7 +2,6 @@
 This is my movement file
 """
 # import Map
-
 row = 2
 column = 0
 # current_location = Map.Ship_map[row][column]

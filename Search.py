@@ -1,9 +1,6 @@
 """
 This is my search file
 """
-
-import Movement
-
 # Map layout of ship
 Ship_map = [
   ["PirateTile", "NothingTile", "StorageTile", "EscapeTile"],
@@ -11,10 +8,8 @@ Ship_map = [
   ["StartTile", "PirateTile", "RoomTile", "StorageTile"],
   ["BoilerTile", "NothingTile", "PirateTile", "NothingTile"]
 ]
-
 # Empty dictionary used to update inventory
 Inventory = []
-
 # Function containing all of the code for searching
 def Look(current_location):
     """
@@ -55,4 +50,3 @@ def Look(current_location):
                 print("You already have a gun")
         else:
             print("There's nothing in here")
-  

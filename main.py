@@ -14,7 +14,6 @@ import Search
 import Map
 # Global variables for column and row
 # Formats the map in rows and columns
-
 #Nested Dictionary for all inventory items
 Objects = {"Gun":
           {"Description": "A weapon that does 45 damage"},
@@ -45,9 +44,6 @@ Ship_tiles = {"PirateTile":
               "BoilerTile": 
               {"Description":"You are in the boiler room",                  "Inventory": "[Knife]"}
              }
-
-
-
 # Code to print players current location
 while True:
     current_location = Map.Ship_map[Movement.row][Movement.column]
@@ -77,4 +73,3 @@ while True:
             print("You're being returned to the main menu")
     else:
         print("You can't do that")
-        
